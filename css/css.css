@@ -9,7 +9,16 @@ header {
 
 }
 
+.h1 {
+    padding-left: 200px;
 
+
+}
+
+.entradas {
+    padding-right: 50px;
+    padding-left: 70px;
+}
 
 #redes {
 
@@ -50,7 +59,44 @@ a {
 
 }
 
-.menu:hover {
+.entradas {
+    padding-right: 50px;
+    padding-left: 70px;
+}
+
+.pratos {
+    padding-left: 120px
+}
+
+.drinks {
+    padding-left: 220px;
+}
+
+.vinhos {
+    padding-left: 200px;
+}
+
+.sobremesas {
+    padding-left: 150px;
+}
+
+.entradas:hover {
+    opacity: 0.6;
+}
+
+.pratos:hover {
+    opacity: 0.6;
+}
+
+.drinks:hover {
+    opacity: 0.6;
+}
+
+.vinhos:hover {
+    opacity: 0.6;
+}
+
+.sobremesas:hover {
     opacity: 0.6;
 }
 
@@ -118,4 +164,52 @@ footer {
 h1,
 #redes {
     display: inline;
+}
+
+@media(max-width:640px) {
+    body {
+        background-color: rgb(250, 248, 248);
+
+    }
+
+    .h1 {
+        text-align: left;
+        padding-left: 0%;
+    }
+
+    .menu {
+        font-size: 10px;
+        padding-left: 0%;
+    }
+
+    img {
+        width: 75px;
+        height: 75px;
+        border-radius: 10px;
+        display: inline;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .entradas {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+
+    .pratos {
+        padding-left: 10px
+    }
+
+    .drinks {
+        padding-left: 10px;
+    }
+
+    .vinhos {
+        padding-left: 5px;
+    }
+
+    .sobremesas {
+        padding-left: 5px;
+    }
+
 }
